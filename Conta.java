@@ -8,6 +8,10 @@ public class Conta {
     public void sacar (double valor) {
         this.saldo = this.saldo - valor;
     }
+    public double consultarSaldo() {
+        System.out.println("Conultando saldo");
+        return this.saldo;
+    }
 
 }
 
