@@ -1,12 +1,12 @@
 public class Conta {
-    String numeroConta; 
+    String numeroConta;
     double saldo;
 
     public static void main(String[] args) {
         System.out.println("Iniciando Classe");
     }
-    
-    public void sacar (double valor) {
+
+    public void sacar(double valor) {
         this.saldo = this.saldo - valor;
     }
 
@@ -14,6 +14,8 @@ public class Conta {
         System.out.println("Consultando saldo");
         return this.saldo;
     }
+
+    public void depositar(double valor) {
+        this.saldo += valor;
+    }
 }
-
-
