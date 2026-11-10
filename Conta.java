@@ -9,11 +9,11 @@ public class Conta {
     public void sacar (double valor) {
         this.saldo = this.saldo - valor;
     }
-    
-    public double consultarSaldo() {
-    return this.saldo;
-    }
 
+    public double consultarSaldo() {
+        System.out.println("Consultando saldo");
+        return this.saldo;
+    }
 }
 
 
